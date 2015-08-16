@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weekend Challenge #1</title>
+    <meta name="description" content="Webpage">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  
+<!--  required="true"-->
+
+  <body> 
+  <ul id="content">
+    <form id="employeeInfo" method="post">
+      <div id="data">
+        <fieldset><legend> Employee Information </legend>
+        <li>
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="firstName"></input>
+        </li>
+        <li>
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName"></input>
+        </li>
+        <li>
+        <label for="employeeNumber">Employee Number</label>
+        <input type="text" id="employeeNumber" name="employeeNumber"></input>
+        </li>
+        <li>
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title"></input>
+        </li>
+        <li>
+        <label for="reviewScore">Review Score</label>
+        <input type="number" id="reviewScore" name="reviewScore" min="1" max="5" value="0"></input>
+        </li>
+        <li>
+        <label for="salary">Salary</label>
+        <input type="text" id="salary" name="salary"></input>
+        </li>
+        <li>
+        <input type="submit" onSubmit></input>
+        </li>
+        </fieldset>
+      </div>
+    </form>
+
+  </ul> 
+    <div id="outputs">
+      <ul id="formOutput"></ul>
+    </div> 
+  </body>
+
+
+</html>
