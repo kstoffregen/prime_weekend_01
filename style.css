@@ -1,12 +1,11 @@
-/**{
-	padding: 0px;
-	border: 0px;
-	margin: 0px;
+body {
+	width: 600px;
+	margin: auto;
 }
-*/
+
 fieldset {
 	border: 1px solid #CCC;
-/*	margin: 10px;*/
+	margin: 10px;
 	width: 400px;
 }
 legend {
@@ -33,6 +32,22 @@ label {
 	padding-right: 20px;
 }
 
-#outputs {
-	width: 700px;
+.reviewScore1 {
+	background-color: red;
+}
+
+.reviewScore2 {
+	background-color: orange;
+}
+
+.reviewScore3 {
+	background-color: yellow;
+}
+
+.reviewScore4 {
+	background-color: lime;
+}
+
+.reviewScore5 {
+	background-color: green;
 }
